@@ -4,7 +4,8 @@ name: Dublin Traffic Collector Test
 on:
   workflow_dispatch:
   schedule:
-   - cron: '*/15 * * * *'
+   #- cron: '*/15 * * * *'
+   - cron: '7,22,37,52 * * * *'
 
 jobs:
   collect-traffic:
